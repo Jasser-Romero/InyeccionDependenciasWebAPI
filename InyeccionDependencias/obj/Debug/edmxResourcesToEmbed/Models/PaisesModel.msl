@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WebApiPaisesModelStoreContainer" CdmEntityContainer="WebApiPaisesEntities">
+    <EntitySetMapping Name="Paises">
+      <EntityTypeMapping TypeName="WebApiPaisesModel.Paises">
+        <MappingFragment StoreEntitySet="Paises">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuarios">
+      <EntityTypeMapping TypeName="WebApiPaisesModel.Usuarios">
+        <MappingFragment StoreEntitySet="Usuarios">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
